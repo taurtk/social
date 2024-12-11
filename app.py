@@ -63,7 +63,7 @@ def generate_social_posts(post_type):
             - Use minimal emojis
             - Maintain an authentic, visionary tone
             - Limit to 280 characters
-
+            Make sure the cosine similary of the generated tweets are above 8
             Generate 10 unique tweets. 
             Format each tweet on a new line, starting with "Tweet X:":"""
             max_length = 280
@@ -81,7 +81,7 @@ def generate_social_posts(post_type):
             - Include networking and professional development themes
             - Maintain an authentic, motivational tone
             - Aim for 1-3 paragraphs
-
+            Make sure the cosine similary of the generated tweets are above 8
             Generate 10 unique LinkedIn posts. 
             Format each post on a new line, starting with "Post X:":"""
             max_length = 3000
